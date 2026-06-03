@@ -1,24 +1,34 @@
-# toyDB Storage Engine
+# toyDB Database Storage Engine
 
 ## Overview
 
-Academic DBMS project implementing storage and access mechanisms in C.
+Extended toyDB database system implementing advanced storage and indexing mechanisms.
 
-This project was completed as part of database systems coursework to understand database internals, file management, and access methods.
+## Implemented Features
+
+### Objective 1: Page Buffering
+- Configurable buffer sizes
+- LRU replacement policy
+- MRU replacement policy
+- I/O statistics collection
+
+### Objective 2: Slotted Pages
+- Variable-length record support
+- Efficient space utilization
+- Insert/Delete/Search operations
+
+### Objective 3: Index Construction
+- Single-pass index creation
+- Incremental index building
+- Bottom-up bulk loading
 
 ## Technologies
 
 - C
-- DBMS
-- File Systems
-- Data Structures
-
-## Learning Outcomes
-
+- Database Systems
 - Storage Management
-- Access Methods
-- Record Handling
-- Systems Programming
+- Indexing
+- File Systems
 
 ## Author
 
